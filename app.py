@@ -279,6 +279,8 @@ def generate_frames():
                     bpm = pulse_estimator.smooth_bpm(
                         bpm
                     )
+                    if bpm is not None:
+                        bpm=max(50,min(110,bpm))
 
             else:
 
