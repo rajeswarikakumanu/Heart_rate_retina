@@ -1,0 +1,16 @@
+body{
+    margin:0;
+    background:#111;
+    color:white;
+    text-align:center;
+    font-family:Arial;
+}
+
+.container{
+    padding:20px;
+}
+
+.video{
+    border:3px solid #00ff88;
+    border-radius:10px;
+}
